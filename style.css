@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Sekuya&display=swap');
+
+
+body{
+    background-color: rgb(215, 255, 255);
+}
+
+#nav-main-heading{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+}
+
+#hero-section{
+    text-align: center;
+}
+
+#hero-section-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 65px;
+    padding: 20px;
+    width: 900px;
+    background-color: rgb(214, 150, 150);
+    border: 10px solid rgb(14, 95, 95);
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow:5px 5px 5px 10px rgb(19, 107, 107) ;
+}
+
+#hero-section-text{
+    margin-top: 120px;
+    color: #222;
+
+}
+
+#hero-section-text-container{
+    padding-right: 60px;
+}
+
+#hero-section-image-container{
+    border: 10px solid rgb(14, 95, 95);
+    border-radius: 25px ;
+}
+
+#hero-image{
+    padding: 0;
+    border-radius: 10px;
+}
+
+#hero-section-button-whatsapp{
+    background-color:#25D366;
+    padding: 15px 30px;
+    border: 3px solid #12f163;
+    border-radius: 50px;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#hero-section-button-call-us{
+    background-color:#E74C3C;
+    padding: 15px 30px;
+    border: 3px solid #cf2a17;
+    border-radius: 50px;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card{
+    border: 3px solid rgb(174, 100, 100);
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    padding: 10px 10px;
+    background-color: rgb(217, 176, 176);
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+#service-section-container{
+    height: 800px;
+    width: 1000px;
+    background-color:rgb(214, 150, 150) ;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 50px;
+    border: 10px solid rgb(210, 115, 115);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(214, 121, 121);
+}
+
+#card-1-phone-repair{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+#card-2-battry-replacement{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#card-3-buy-phone{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+}
+.service-buttons{
+    padding: 10px 15px;
+    border: 3px solid#12f163;
+    border-radius: 50px;
+    background-color: #25D366;
+    color: white;
+    transition: 0.3s;
+}
+
+.service-buttons:hover{
+    background-color: #12f163;
+    transform: scale(1.1);
+}
+
+#hero-section-button-whatsapp:hover{
+    background-color: #12f163;
+    transform: scale(1.1);
+}
+
+#hero-section-button-call-us:hover{
+    background-color: #cf2a17;
+    transform: scale(1.1);
+}
+
+#Footer{
+    background-color: #222;
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 100px;
+    padding-top: 50px;
+}
